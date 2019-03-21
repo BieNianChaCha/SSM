@@ -1,0 +1,38 @@
+
+##ignore this file##
+/target/
+.classpath
+.project
+.settings
+##filter databfile、sln file##
+*.mdb
+*.ldb
+*.sln
+##class file##
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+##compression gile##
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.via
+*.tmp
+*.err
+##OS generated files#
+.DS_Store
+.DS_Stors?
+._*
+.Spotlight-V100
+.Trashes
+lcon?
+ehthumbs.db
+Thumbs.db

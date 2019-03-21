@@ -18,7 +18,7 @@ public class UserEntity {
 	private String password;
 	private String email;
 	private String phone;
-	public int getId() {
+	/*public int getId() {
 		return id;
 	}
 	public void setId(int id) {
@@ -47,7 +47,7 @@ public class UserEntity {
 	}
 	public void setPhone(String phone) {
 		this.phone = phone;
-	}
+	}*/
 	@Override
 	public String toString() {
 		return "UserEntity [id=" + id + ", name=" + name + ", password=" + password + ", email=" + email + ", phone="
