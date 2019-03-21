@@ -18,6 +18,7 @@ public class UserEntity {
 	private String password;
 	private String email;
 	private String phone;
+	private String sex;
 	public int getId() {
 		return id;
 	}
@@ -47,6 +48,12 @@ public class UserEntity {
 	}
 	public void setPhone(String phone) {
 		this.phone = phone;
+	}
+	public String getSex(){
+		return sex;
+	}
+	public void setSex(String sex){
+		this.sex = sex;
 	}
 	@Override
 	public String toString() {
