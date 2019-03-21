@@ -8,7 +8,7 @@ package com.mitu.entity;
  * <p>说明：  []</p>
  * <p>nuge.cn Company</p>
  * <p>类： com.mitu.entity.UserEntity.java</p>
- * @author 张成佳
+ * @author 别念茶茶
  * @since 2019年3月12日 上午10:17:38
  * @version 1.0.0.0
  */
