@@ -8,7 +8,7 @@ package com.mitu.entity;
  * <p>说明：  []</p>
  * <p>nuge.cn Company</p>
  * <p>类： com.mitu.entity.UserEntity.java</p>
- * @author 张成佳
+ * @author 别念茶茶
  * @since 2019年3月12日 上午10:17:38
  * @version 1.0.0.0
  */
@@ -18,7 +18,8 @@ public class UserEntity {
 	private String password;
 	private String email;
 	private String phone;
-	/*public int getId() {
+	private String sex;
+	public int getId() {
 		return id;
 	}
 
@@ -48,7 +49,16 @@ public class UserEntity {
 	}
 	public void setPhone(String phone) {
 		this.phone = phone;
-	}*/
+	}
+	
+	public String getSex() {
+		return sex;
+	}
+
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+
 	@Override
 	public String toString() {
 		return "UserEntity [id=" + id + ", name=" + name + ", password=" + password + ", email=" + email + ", phone="
